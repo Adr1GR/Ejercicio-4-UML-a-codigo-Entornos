@@ -16,12 +16,16 @@ public class PedidoCompuesto extends Pedido{
     public ArrayList<Pedido> pedidos;
     
     public int obtener_total(){
+        return 0;
     }
     public boolean cobrar(){
+        return false;
     }
     public void obtener_detalle(){
     }
     public ArrayList<Cuenta> obtener_cuentas(){
+        ArrayList<Cuenta> c = new ArrayList<>();
+        return c;
     }
     public void anyadir_pedido(Pedido p){
     }
