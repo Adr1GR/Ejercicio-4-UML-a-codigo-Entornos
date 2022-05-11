@@ -17,17 +17,22 @@ class Pedido {
     public LineaDePedido t_producto;
     
     public boolean cobrar(){
+        return false;
     }
     public void servir(){
     }
     public void confirmar(){
     }
     public int obtener_total(){
+        return 0;
     }
     public void obtener_detalle(){
     }
     public ArrayList<Cuenta> obtener_cuenta(){
+        ArrayList<Cuenta> c = new ArrayList<>();
+        return c;
     }
     public boolean anyadirProducto(Producto p, int num){
+        return false;
     }
 }
