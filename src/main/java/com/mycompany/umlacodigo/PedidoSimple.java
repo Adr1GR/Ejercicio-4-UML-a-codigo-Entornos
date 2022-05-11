@@ -16,11 +16,15 @@ public class PedidoSimple extends Pedido{
     public Cuenta cuenta;
     
     public int obtener_total(){
+        return 0;
     }
     public boolean cobrar(){
+        return false;
     }
     public void obtener_detalle(){
     }
     public ArrayList<Cuenta> obtener_cuentas(){
+        ArrayList<Cuenta> c = new ArrayList<>();
+        return c;
     }
 }
